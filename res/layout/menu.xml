@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+ 	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:background="#000000">
+  	<TextView
+  		android:id="@+id/topScore"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:textSize="12dp"
+		android:layout_marginRight="5dp"
+		android:layout_marginTop="5dp"
+		android:typeface="monospace"
+		android:textColor="#FFFFFF" />
+  	<TextView
+  		android:id="@+id/logo" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="SNAKE"
+		android:gravity="center"
+		android:layout_marginTop="20dp"
+		android:textSize="100dp"
+		android:textColor="#FFFFFF" />
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/message"
+		android:gravity="center"
+		android:textColor="#FFFFFF" />
+	<SeekBar 
+		android:id="@+id/seekbar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:max="9"
+		android:minWidth="250dp"  
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp" 
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="25dp" />
+	<TextView 
+		android:id="@+id/textview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#FFFFFF" />
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="140dp"
+	    android:layout_height="50dp"
+	    android:text="Button"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="25dp" />  
+</LinearLayout>
